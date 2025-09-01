@@ -83,7 +83,6 @@ proxies:
     - { name: 'California V2 - C Group', type: vmess, server: cgroup.node5.v.nodelist-airport.com, port: 26542, uuid: 9e15680e-f9cd-492f-91e7-3a2bb105d044, alterId: 0, cipher: auto, udp: true}, 
 
 #规则  设置这些网络分别采用哪个组别。因此原本的末尾的后面也需要更改.带有 单引号 起来的是原本作者自己写的,故这个地方保留着。
-network: 
 rules:
     - DOMAIN-SUFFIX,google.com,🚀 Auto Select
     - DOMAIN-SUFFIX,youtube.com,🚀 Auto Select
@@ -607,6 +606,7 @@ rules:
     - 'DOMAIN-KEYWORD,-cn,DIRECT'
     - 'GEOIP,CN,DIRECT'
     - 'MATCH,🚀 Auto Select'
+
 
 
 
