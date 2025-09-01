@@ -80,8 +80,9 @@ proxies:
     - { name: 'Incheon V2 - C Group', type: vmess, server: cgroup.node2.v.nodelist-airport.com, port: 23113, uuid: 9e15680e-f9cd-492f-91e7-3a2bb105d044, alterId: 0, cipher: auto, udp: true }
     - { name: 'Singapore V2 - C Group', type: vmess, server: cgroup.node3.v.nodelist-airport.com, port: 24321, uuid: 9e15680e-f9cd-492f-91e7-3a2bb105d044, alterId: 0, cipher: auto, udp: true }
     - { name: 'HongKong V2 - C Group', type: vmess, server: cgroup.node4.v.nodelist-airport.com, port: 52312, uuid: 9e15680e-f9cd-492f-91e7-3a2bb105d044, alterId: 0, cipher: auto, udp: true }
-    - { name: 'California V2 - C Group', type: vmess, server: cgroup.node5.v.nodelist-airport.com, port: 26542, uuid: 9e15680e-f9cd-492f-91e7-3a2bb105d044, alterId: 0, cipher: auto, udp: true}, 
+    - { name: 'California V2 - C Group', type: vmess, server: cgroup.node5.v.nodelist-airport.com, port: 26542, uuid: 9e15680e-f9cd-492f-91e7-3a2bb105d044, alterId: 0, cipher: auto, udp: true} 
 
+    
 #规则  设置这些网络分别采用哪个组别。因此原本的末尾的后面也需要更改.带有 单引号 起来的是原本作者自己写的,故这个地方保留着。
 rules:
     - DOMAIN-SUFFIX,google.com,🚀 Auto Select
@@ -606,6 +607,7 @@ rules:
     - 'DOMAIN-KEYWORD,-cn,DIRECT'
     - 'GEOIP,CN,DIRECT'
     - 'MATCH,🚀 Auto Select'
+
 
 
 
