@@ -63,24 +63,25 @@ proxy-groups:
 
 # 节点配置  使用原本作者自带的即可
 proxies:
-    - { name: '剩余流量：够用就是', type: ss, server: cgroup.node1.s.nodelist-airport.com, port: 54329, cipher: aes-256-gcm, password: 9e15680e-f9cd-492f-91e7-3a2bb105d044, udp: true }
-    - { name: '距离下次重置剩余：每月一次', type: ss, server: cgroup.node1.s.nodelist-airport.com, port: 54329, cipher: aes-256-gcm, password: 9e15680e-f9cd-492f-91e7-3a2bb105d044, udp: true }
-    - { name: 套餐到期：2026-03-31, type: ss, server: cgroup.node1.s.nodelist-airport.com, port: 54329, cipher: aes-256-gcm, password: 9e15680e-f9cd-492f-91e7-3a2bb105d044, udp: true }
-    - { name: 'Tokyo SS - C Group', type: ss, server: cgroup.node1.s.nodelist-airport.com, port: 54329, cipher: aes-256-gcm, password: 9e15680e-f9cd-492f-91e7-3a2bb105d044, udp: true }
-    - { name: 'Incheon SS - C Group', type: ss, server: cgroup.node2.s.nodelist-airport.com, port: 4021, cipher: aes-256-gcm, password: 9e15680e-f9cd-492f-91e7-3a2bb105d044, udp: true }
-    - { name: 'Singapore SS - C Group', type: ss, server: cgroup.node3.s.nodelist-airport.com, port: 16198, cipher: aes-256-gcm, password: 9e15680e-f9cd-492f-91e7-3a2bb105d044, udp: true }
-    - { name: 'HongKong SS - C Group', type: ss, server: cgroup.node4.s.nodelist-airport.com, port: 32013, cipher: aes-256-gcm, password: 9e15680e-f9cd-492f-91e7-3a2bb105d044, udp: true }
-    - { name: 'California SS - C Group', type: ss, server: cgroup.node5.s.nodelist-airport.com, port: 5003, cipher: aes-256-gcm, password: 9e15680e-f9cd-492f-91e7-3a2bb105d044, udp: true }
-    - { name: 'Tokyo2 SS - C Group', type: ss, server: cgroup.node1.s2.nodelist-airport.com, port: 51205, cipher: aes-256-gcm, password: 9e15680e-f9cd-492f-91e7-3a2bb105d044, udp: true }
-    - { name: 'Incheon2 SS - C Group', type: ss, server: cgroup.node2.s2.nodelist-airport.com, port: 33152, cipher: aes-256-gcm, password: 9e15680e-f9cd-492f-91e7-3a2bb105d044, udp: true }
-    - { name: 'Singapore2 SS - C Group', type: ss, server: cgroup.node3.s2.nodelist-airport.com, port: 34502, cipher: aes-256-gcm, password: 9e15680e-f9cd-492f-91e7-3a2bb105d044, udp: true }
-    - { name: 'HongKong2 SS - C Group', type: ss, server: cgroup.node4.s2.nodelist-airport.com, port: 48712, cipher: aes-256-gcm, password: 9e15680e-f9cd-492f-91e7-3a2bb105d044, udp: true }
-    - { name: 'California2 SS - C Group', type: ss, server: cgroup.node5.s2.nodelist-airport.com, port: 27232, cipher: aes-256-gcm, password: 9e15680e-f9cd-492f-91e7-3a2bb105d044, udp: true }
-    - { name: 'Tokyo V2 - C Group', type: vmess, server: cgroup.node1.v.nodelist-airport.com, port: 37854, uuid: 9e15680e-f9cd-492f-91e7-3a2bb105d044, alterId: 0, cipher: auto, udp: true }
-    - { name: 'Incheon V2 - C Group', type: vmess, server: cgroup.node2.v.nodelist-airport.com, port: 23113, uuid: 9e15680e-f9cd-492f-91e7-3a2bb105d044, alterId: 0, cipher: auto, udp: true }
-    - { name: 'Singapore V2 - C Group', type: vmess, server: cgroup.node3.v.nodelist-airport.com, port: 24321, uuid: 9e15680e-f9cd-492f-91e7-3a2bb105d044, alterId: 0, cipher: auto, udp: true }
-    - { name: 'HongKong V2 - C Group', type: vmess, server: cgroup.node4.v.nodelist-airport.com, port: 52312, uuid: 9e15680e-f9cd-492f-91e7-3a2bb105d044, alterId: 0, cipher: auto, udp: true }
-    - { name: 'California V2 - C Group', type: vmess, server: cgroup.node5.v.nodelist-airport.com, port: 26542, uuid: 9e15680e-f9cd-492f-91e7-3a2bb105d044, alterId: 0, cipher: auto, udp: true} 
+    - { name: '剩余流量：够用就是', type: ss, server: cgroup.node1.s.nodelist-airport.com, port: 12429, cipher: aes-256-gcm, password: 55da7269-a7b1-4b8c-aaca-306f955f6671, udp: true }
+    - { name: '距离下次重置剩余：每月一次', type: ss, server: cgroup.node1.s.nodelist-airport.com, port: 12429, cipher: aes-256-gcm, password: 55da7269-a7b1-4b8c-aaca-306f955f6671, udp: true }
+    - { name: 套餐到期：2026-03-31, type: ss, server: cgroup.node1.s.nodelist-airport.com, port: 12429, cipher: aes-256-gcm, password: 55da7269-a7b1-4b8c-aaca-306f955f6671, udp: true }
+    - { name: 'Tokyo SS - C Group', type: ss, server: cgroup.node1.s.nodelist-airport.com, port: 12429, cipher: aes-256-gcm, password: 55da7269-a7b1-4b8c-aaca-306f955f6671, udp: true }
+    - { name: 'Incheon SS - C Group', type: ss, server: cgroup.node2.s.nodelist-airport.com, port: 4021, cipher: aes-256-gcm, password: 55da7269-a7b1-4b8c-aaca-306f955f6671, udp: true }
+    - { name: 'Singapore SS - C Group', type: ss, server: cgroup.node3.s.nodelist-airport.com, port: 16198, cipher: aes-256-gcm, password: 55da7269-a7b1-4b8c-aaca-306f955f6671, udp: true }
+    - { name: 'HongKong SS - C Group', type: ss, server: cgroup.node4.s.nodelist-airport.com, port: 32013, cipher: aes-256-gcm, password: 55da7269-a7b1-4b8c-aaca-306f955f6671, udp: true }
+    - { name: 'California SS - C Group', type: ss, server: cgroup.node5.s.nodelist-airport.com, port: 5003, cipher: aes-256-gcm, password: 55da7269-a7b1-4b8c-aaca-306f955f6671, udp: true }
+    - { name: 'Tokyo2 SS - C Group', type: ss, server: cgroup.node1.s2.nodelist-airport.com, port: 51205, cipher: aes-256-gcm, password: 55da7269-a7b1-4b8c-aaca-306f955f6671, udp: true }
+    - { name: 'Incheon2 SS - C Group', type: ss, server: cgroup.node2.s2.nodelist-airport.com, port: 33152, cipher: aes-256-gcm, password: 55da7269-a7b1-4b8c-aaca-306f955f6671, udp: true }
+    - { name: 'Singapore2 SS - C Group', type: ss, server: cgroup.node3.s2.nodelist-airport.com, port: 34502, cipher: aes-256-gcm, password: 55da7269-a7b1-4b8c-aaca-306f955f6671, udp: true }
+    - { name: 'HongKong2 SS - C Group', type: ss, server: cgroup.node4.s2.nodelist-airport.com, port: 48712, cipher: aes-256-gcm, password: 55da7269-a7b1-4b8c-aaca-306f955f6671, udp: true }
+    - { name: 'California2 SS - C Group', type: ss, server: cgroup.node5.s2.nodelist-airport.com, port: 27232, cipher: aes-256-gcm, password: 55da7269-a7b1-4b8c-aaca-306f955f6671, udp: true }
+    - { name: 'Tokyo V2 - C Group', type: vmess, server: cgroup.node1.v.nodelist-airport.com, port: 53231, uuid: 55da7269-a7b1-4b8c-aaca-306f955f6671, alterId: 0, cipher: auto, udp: true }
+    - { name: 'Incheon V2 - C Group', type: vmess, server: cgroup.node2.v.nodelist-airport.com, port: 53113, uuid: 55da7269-a7b1-4b8c-aaca-306f955f6671, alterId: 0, cipher: auto, udp: true }
+    - { name: 'Singapore V2 - C Group', type: vmess, server: cgroup.node3.v.nodelist-airport.com, port: 24321, uuid: 55da7269-a7b1-4b8c-aaca-306f955f6671, alterId: 0, cipher: auto, udp: true }
+    - { name: 'HongKong V2 - C Group', type: vmess, server: cgroup.node4.v.nodelist-airport.com, port: 8312, uuid: 55da7269-a7b1-4b8c-aaca-306f955f6671, alterId: 0, cipher: auto, udp: true }
+    - { name: 'California V2 - C Group', type: vmess, server: cgroup.node5.v.nodelist-airport.com, port: 6542, uuid: 55da7269-a7b1-4b8c-aaca-306f955f6671, alterId: 0, cipher: auto, udp: true, network: ws }
+
 
     
 #规则  设置这些网络分别采用哪个组别。因此原本的末尾的后面也需要更改.带有 单引号 起来的是原本作者自己写的,故这个地方保留着。
@@ -610,6 +611,7 @@ rules:
     - 'DOMAIN-KEYWORD,-cn,DIRECT'
     - 'GEOIP,CN,DIRECT'
     - 'MATCH,🚀 Auto Select'
+
 
 
 
