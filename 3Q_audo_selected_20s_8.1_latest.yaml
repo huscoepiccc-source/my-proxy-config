@@ -92,7 +92,6 @@ rules:
     - DOMAIN-SUFFIX,instagram.com,🚀 Auto Select
     - DOMAIN-SUFFIX,github.com,🚀 Auto Select
     - GEOIP,CN,DIRECT
-    - MATCH,🚀 Auto Select  # 默认规则
     - 'DOMAIN,www5th.ga-sub.baby,DIRECT'
     - 'DOMAIN-SUFFIX,services.googleapis.cn,🚀 Auto Select'
     - 'DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 Auto Select'
